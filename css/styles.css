@@ -1,0 +1,314 @@
+:root {
+    --title-color: #111111;
+    --main-text-color: #ffffff;
+    --second-text-color: #111111;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* ---_-__---_HEADER_______--- --------------------*/
+
+.header-logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.11;
+letter-spacing: -0.03em;
+color: #111111;
+}
+
+.header-logo span {
+    font-style: italic;
+}
+
+.header-menu-link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: #111111;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #fd9222;
+}
+
+.header-menu-link:is(:hover, :focus) {
+    color: #fd9222;
+}
+
+
+/* ___________________---------HERO */
+
+.hero {
+    background-color: rgb(114, 82, 16);
+}
+
+.hero-title {
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+
+.hero-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.21;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.hero-link {
+font-family: inherit;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 1.21;
+color: #FFFFFF;
+}
+
+.hero-scroll-link {
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+
+/* __---__-__ BENEFITS */
+
+
+.benefits {
+background-color: #1E1823;
+}
+
+.benefits-list {
+
+}
+
+.benefits-item {
+
+}
+
+.benefits-subtitle {
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+color: #FFFFFF;
+}
+
+.benefits-item-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.21; 
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.products {}
+
+.products-title {
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.17;   
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #111111;
+}
+
+.products-title span {
+    color: #FD9222;
+}
+
+.products-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+color: #111111;
+}
+
+.products-list {}
+
+.products-item {}
+
+.products-subtitle {}
+
+.products-subtitle.light {
+
+}
+
+.products-subtitle.dark {
+
+}
+
+/* -------------___MADE---------------- */
+
+.made {}
+
+.made-title {
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #111111
+}
+
+.made-title span {
+    color: #FD9222;
+}
+
+.made-img {}
+
+.made-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {}
+
+/* --------------------- LOVED --------------------- */
+
+.loved {}
+
+.loved-title {
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: var(--second-text-color);
+}
+
+.loved-title span {
+    color: #FD9222;
+}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-subtitle {
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+text-align: center;
+color: #111111;
+}
+
+.loved-item-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22; 
+color: #111111;
+cursor: pointer;
+}
+
+/* ----------______________---------FOOTER-------__________ */
+
+.footer {
+    background-color: #1E1823;
+}
+
+.footer-text {
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.footer-text span {
+    color: #FD9222;
+}
+
+.footer-contacs {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #FFFFFF;
+}
+
+.footer-address {}
+
+.footer-address-list {}
+
+.footer-address-item {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.footer-address-link {}
+
+.footer-navigator {}
+
+.footer-menu {}
+
+.footer-menu-item {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+display: flex;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+.footer-menu-link {}
