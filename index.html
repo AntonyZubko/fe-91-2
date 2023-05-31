@@ -9,10 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,700&display=swap"
         rel="stylesheet">
     <title>Simply Chocolate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
+        <div class="container header-container">
         <nav class="header-navigation">
             <a href="./index.html" class="header-logo"><span>SIMPLY</span> CHOCOLATE
                 <img src="./images/logochoc.svg" alt="logo image" width="24" height="24">
@@ -29,19 +33,26 @@
                 <li class="header-soc-item"><a class="header-soc-link" href="#" aria-label="instagram" target="_blank" rel="noopener noreffer">insta</a></li>
                 <li class="header-soc-item"><a class="header-soc-link" href="#" aria-label="twitter" target="_blank" rel="noopener noreffer">twitt</a></li>
             </ul>
+        </div>
     </header>
 
     <main>
         <section class="hero">
+            <div class="container hero-container">
             <h1 class="hero-title">Treat yourself or a loved one to 
                 our finest ingredients for a moment 
                 of pure delight!</h1>
+
+                <div class="hero-buttons">
                 <button type="button" class="hero-btn">Buy now</button>
                 <a href="#made" class="hero-link">How it’s made?</a>
                 <a href="#footer" class="hero-scroll-link">scroll down</a>
+                </div>
+            </div>
         </section>
 
             <section class="benefits">
+                <div class="container">
                 <h2 hidden>Benefits</h2>
                 <ul class="benefits-list">
                     <li class="benefits-item">
@@ -57,9 +68,11 @@
                         <p class="benefits-item-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
                     </li>
                 </ul>
+                </div>
             </section>
 
             <section class="products">
+                <div class="container">
                 <h2 class="products-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
                 <p class="products-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
                 <ul class="products-list">
@@ -80,10 +93,13 @@
                         <h3 class="products-subtitle dark">SEMI - SWEET CHOCOLATE</h3>
                     </li>
                 </ul>
+                </div>
             </section>
 
                 <section id="made" class="made">
+                    <div class="container">
                     <h2 class="made-title">HOW IT’S <span>MADE?</span></h2>
+                        <div class="made-wrap">
                     <img src="/images/madeIMG.jpg" alt="plate of choco" width="600" height="400" class="made-img">
                     <p class="made-text">Try  our chocolates today and discover the perfect balance of flavor</p>
                     <ul class="made-list">
@@ -93,6 +109,8 @@
                         <li class="made-item"><p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p></li>
                         <li class="made-item"><p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p></li>
                     </ul>
+                        </div>
+                    </div>
                 </section>
 
                         <section id="loved" class="loved">
